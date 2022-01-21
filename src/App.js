@@ -1,4 +1,15 @@
-import logo from './logo.svg';
+import NotesList from "./components/NotesList";
+
+const App = () => {
+	return (
+		<div className="container">
+			<NotesList />
+		</div>
+	)
+}
+
+export default App;
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +34,4 @@ function App() {
 }
 
 export default App;
+ */
